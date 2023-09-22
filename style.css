@@ -1,0 +1,77 @@
+
+header {
+    background-image: url("https://images.pexels.com/photos/4009955/pexels-photo-4009955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+}
+
+.texto {
+    text-indent: 20px;
+    font-family:'fonteptez';
+    color: rgb(4, 4, 4);
+    align-items:center;
+    background-color: #FF8311;
+
+}
+
+h1{
+    text-align: center;
+    background-color:#FF8311;
+    color:black;
+}
+#inicio{
+    width: 20%;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+ a {
+    color: #ffffff;
+}
+
+a:hover{
+    color: #014670;
+}
+a:link {text-decoration: none;
+        
+}
+
+ul {
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
+   background: black;
+   display: flex;
+   align-items: end;
+   font-family: 'fonteptez';
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   gap: 3rem;
+   color: #ffffff;
+   font-size: larger;
+   font-weight: bold;
+}
+
+#heroimagem{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    border-width: 2px;
+   border-style: solid;
+   border-color: black;
+   background: black;
+   align-items: center;
+   font-family: 'fonteptez';
+   list-style: none;
+   gap: 3rem;
+   color: #ffffff;
+   font-size: larger;
+   font-weight: bold;
+}
